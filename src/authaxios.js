@@ -14,7 +14,7 @@ const instance = axios.create({
 
 const instances = (props) =>
   axios.create({
-    baseURL: "http://13.40.222.137:3001/", //https://api.swip.ng/
+    baseURL: "https://api.e-medix.ng/", //https://api.swip.ng/
     mode: "cors",
     headers: {
       accept: "application/json",
